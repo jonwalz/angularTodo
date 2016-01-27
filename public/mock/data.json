@@ -1,7 +1,7 @@
 [
-    {"name": "clean the house"},
-    {"name": "water the dog"},
-    {"name": "feed the lawn"},
-    {"name": "pay the bills"},
-    {"name": "run"}
+    {"name": "clean the fridge"},
+    {"name": "walk the cat"},
+    {"name": "empty the bills"},
+    {"name": "shower the car"},
+    {"name": "sit"}
   ]

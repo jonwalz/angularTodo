@@ -1,6 +1,6 @@
 body {
   color: #2d3339;
-  font-family: "Varela Round";
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   background: #edeff0;
   font-size: 16px; }
@@ -11,12 +11,25 @@ a {
   a:hover {
     color: #65a1cc; }
 
+#jumboBack {
+    background: linear-gradient(
+        rgba(200,200,200,0.5),
+        rgba(200,200,200,0.5)),
+        url('../img/back.jpg');
+    border-bottom: 20px solid #000000;
+    border-top: 20px solid #000000;
+}  
+  
+  .hero {
+      color: #000000 !important;
+  }
+
 .list {
   background: #fff;
   width: 80%;
-  min-width: 500px;
-  margin: 80px auto 0;
-  border-top: 40px solid #5a6772;
+  /*min-width: 500px;*/
+  margin: 40px auto 0;
+  border-top: 10px solid #000000;
   text-align: left; }
   .list .item {
     border-bottom: 2px solid #edeff0;
@@ -26,7 +39,7 @@ a {
       cursor: pointer; }
     .list .item .editing-label {
       margin-left: 5px;
-      font-family: "Varela Round";
+      font-family: 'Montserrat', sans-serif;
       border-radius: 2px;
       font-size: 16px;
       padding: 15px 0 15px 10px;
@@ -51,9 +64,9 @@ a {
     color: #a7b9c4;
     text-decoration: line-through; }
   .list .add {
-    padding: 25px 0 27px 25px; }
+    padding: .5rem 0 .5rem .5rem; }
 
-/*input[type="checkbox"] {
+input[type="checkbox"] {
     display:none;
 }
 input[type="checkbox"] + span {
@@ -67,4 +80,10 @@ input[type="checkbox"] + span {
 }
 input[type="checkbox"]:checked + span {
     background:url(checkbox-filled.svg) left top no-repeat;
-}*/
+}
+
+@media (min-width: 2rem) {
+    .list {
+        width: 100%;
+    }
+}

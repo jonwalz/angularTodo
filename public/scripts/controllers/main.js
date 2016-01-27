@@ -1,5 +1,3 @@
-console.log("main.js successfully loaded");
-
 angular.module('todoListApp')
 .controller('mainCtrl', function($scope, dataService){
   $scope.addTodo = function(){
